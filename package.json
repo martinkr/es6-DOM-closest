@@ -1,0 +1,46 @@
+{
+  "name": "es6-DOM-closest",
+  "version": "1.0.0",
+  "description": "Returns the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree. Replacement for jQuery's .closest()",
+  "scripts": {
+   "build": "mocha  --compilers js:babel/register ",
+   "test": "mocha  --compilers js:babel/register ",
+   "coverage": "babel-node ./node_modules/.bin/isparta cover --report text --report html _mocha -- --reporter progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RazorfishGermany/es6-test-boilerplate"
+  },
+  "main": "./dist/main.min.js",
+  "bugs": "https://github.com/RazorfishGermany/es6-test-boilerplate",
+  "homepage": "https://github.com/RazorfishGermany/es6-test-boilerplate",
+  "keywords": [
+    "es6",
+    "module",
+    "closest",
+    "DOM",
+    "query"
+    "test",
+    "agile",
+    "tdd",
+    "bdd",
+    "clean code"
+  ],
+  "author": {
+    "name": "Martin Krause",
+    "email": "public@mkrause.info",
+    "url": "http://mkrause.info"
+  },
+  "contributors": [],
+  "license": "BSD-3-Clause",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "chai": "^3.2.0",
+    "eslint": "^1.7.3",
+    "isparta": "^3.0.4",
+    "istanbul": "^0.3.17",
+    "jsdom": "^7.0.2",
+    "mocha": "^2.2.5"
+  }
+}
