@@ -1,11 +1,12 @@
 {
   "name": "es6-DOM-closest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree. Replacement for jQuery's .closest()",
   "scripts": {
-   "build": "mocha  --compilers js:babel/register ",
-   "test": "mocha  --compilers js:babel/register ",
-   "coverage": "babel-node ./node_modules/.bin/isparta cover --report text --report html _mocha -- --reporter progress"
+    "build": "./node_modules/.bin/babel ./src/main.js -m umd -s true --out-file ./dist/umd.js",
+    "transpile": "./node_modules/.bin/babel ./src/main.js -m umd -s true --out-file ./dist/umd.js",
+    "test": "mocha  --compilers js:babel/register ",
+    "coverage": "babel-node ./node_modules/.bin/isparta cover --report text --report html _mocha -- --reporter progress"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
     "module",
     "closest",
     "DOM",
-    "query"
+    "query",
     "test",
     "agile",
     "tdd",
@@ -33,7 +34,7 @@
   },
   "contributors": [],
   "license": "BSD-3-Clause",
-  "dependencies": {},
+
   "devDependencies": {
     "babel": "^5.8.29",
     "chai": "^3.2.0",
