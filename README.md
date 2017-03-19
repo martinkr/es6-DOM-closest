@@ -1,8 +1,8 @@
-#es6-DOM-closest [![Build Status][ci-img]][ci]
+# es6-DOM-closest [![Build Status][ci-img]][ci]
 
 Returns the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree. A simple replacement for jQuery's .closest().
 
-##Example
+## Example
 
 ```JavaScript
     import DOM from "./node_modules/es6-DOM-closest/dist/main";
