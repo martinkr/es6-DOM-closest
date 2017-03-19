@@ -17,5 +17,5 @@ Returns the first element that matches the selector by testing the element itsel
 ## Distribution
 The files in the ```./dist```- folder are not optimised. They are only for your convenience. Please, run them through your own build-system.
 
-[ci-img]:  https://travis-ci.org/martinkr/postcss-mediaquery-extract.svg
-[ci]:      https://travis-ci.org/martinkr/postcss-mediaquery-extract
+[ci-img]:  https://travis-ci.org/martinkr/es6-DOM-closest.svg
+[ci]:      https://travis-ci.org/martinkr/es6-DOM-closest
